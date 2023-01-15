@@ -12,6 +12,8 @@ services:
       - app-network
     depends_on:
       - db
+    links:
+      - db
 
   db:
     image: mysql
@@ -19,6 +21,8 @@ services:
       - "3306:3306"
     env_file:
       - .env
+    networks:
+      - app-network
 
 networks:
   app-network:

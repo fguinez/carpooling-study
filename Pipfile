@@ -17,6 +17,10 @@ aiomysql = "*"
 python-dotenv = "*"
 sqlalchemy = "*"
 uvicorn = "*"
+starlette = "*"
+fastapi = "*"
+loguru = "*"
+cryptography = "*"
 
 [dev-packages]
 
