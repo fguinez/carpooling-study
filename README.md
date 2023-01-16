@@ -4,9 +4,9 @@ A brief analysis of the behavior of a carpooling system.
 
 ## Introduction
 
-First of all, `stydy.ipynb` contains the implementation of the solution described step by step.
+First of all, `study.ipynb` contains the implementation of the solution described step by step.
 
-Second, a containerized API contains a solution that stores the data in SQL and is more geared towards a production environment. The main API file is `main.py`. To run the container:
+Second, a containerized API contains a solution that stores the data in SQL and is more geared towards a production environment. The main API file is `main.py`. To run the container you need a `.env` file and then run:
 
 ```bash
 docker compose build
@@ -39,7 +39,7 @@ Alternatively, a requirements.txt file is attached in case you want to install t
 
 ### Execution
 
-To run the API, you need to have Docker installed and position the `.env` file in the root folder.
+To run the API, you need to have Docker installed and position the `.env` file in the root folder (following the structure defined in `.env.example`).
 
 Then use the following command:
 
