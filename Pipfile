@@ -21,6 +21,8 @@ starlette = "*"
 fastapi = "*"
 loguru = "*"
 cryptography = "*"
+pydantic = "*"
+httpx = "*"
 
 [dev-packages]
 
