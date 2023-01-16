@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+ipykernel = "*"
+shapely = "*"
+scipy = "*"
+numpy = "*"
+matplotlib = "*"
+osmnx = "*"
+mapclassify = "*"
+folium = "*"
+aiomysql = "*"
+python-dotenv = "*"
+sqlalchemy = "*"
+uvicorn = "*"
+starlette = "*"
+fastapi = "*"
+loguru = "*"
+cryptography = "*"
+pydantic = "*"
+httpx = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
