@@ -48,7 +48,7 @@ docker compose build
 docker compose up
 ```
 
-_Note: The first time containers are built there are some extra steps (such as creating the database), which can cause the API to try to communicate with MySQL before MySQL is ready. If this happens, simply stop the execution and run `docker compose up` again._
+- _**Note:** The first time containers are built there are some extra steps (such as creating the database), which can cause the API to try to communicate with MySQL before MySQL is ready. If this happens, simply stop the execution and run `docker compose up` again._
 
 #### Initial data load
 
