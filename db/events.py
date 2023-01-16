@@ -1,5 +1,4 @@
 import aiomysql
-import time
 
 from dotenv import dotenv_values
 from fastapi import FastAPI
@@ -10,8 +9,6 @@ env = dotenv_values(".env")
 
 
 async def connect(app: FastAPI) -> None:
-    logger.info("Waiting database startup...")
-    time.sleep(2)
     logger.info("Connecting to database...")
     app.state.pool = await aiomysql.create_pool(
         host=env['MYSQL_HOST'],
